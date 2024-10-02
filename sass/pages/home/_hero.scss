@@ -1,0 +1,30 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+  
+  .review{
+    @include flex(space-between,center);
+    padding-top:200px;
+    gap:10px;
+  }
+  .hero-review{
+    background-color: black;
+    border-radius: 50px;
+  }
+  
+  .searchbar{
+color:white;
+background-color: $black;
+font-size:30px;
+  }
+  .small-pizza{
+    @include flex(space-between,center);
+  }
+.menulist{
+    @include flex(space-between,center);
+}
+.pizza-box{
+    @include flex(space-between,center);
+}
+.why-us{
+    @include flex(space-between,center);
+}

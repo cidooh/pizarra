@@ -3,3 +3,111 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #F4F7FB;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+}
+nav .nav-center ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+}
+nav .nav-center li a {
+  padding: 35px;
+  display: inline-block;
+}
+nav .nav-center li a:hover {
+  background-color: orange;
+  color: white;
+}
+nav .nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+}
+nav .fa-bars {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav-center {
+    display: none;
+  }
+}
+.review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+  padding-top: 200px;
+  gap: 10px;
+}
+
+.hero-review {
+  background-color: black;
+  border-radius: 50px;
+}
+
+.searchbar {
+  color: white;
+  background-color: #000;
+  font-size: 30px;
+}
+
+.small-pizza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+}
+
+.menulist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+}
+
+.pizza-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+}
+
+.why-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+}
