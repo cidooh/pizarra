@@ -309,6 +309,14 @@ nav .fa-bars {
   padding-top: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+}
 .pizza-menu {
   font-family: "Kanit", sans-serif;
   padding: 2%;
