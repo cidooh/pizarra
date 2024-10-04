@@ -3,43 +3,59 @@
   
 
   .hero{
-    display:flex
+    display:flex;
+    font-family: kanit;
+    font-size:32px;
   }
   .find{
     border-color: white;
+    font-family: kanit;
     
   }
   .review{
     @include flex(space-between,center);
     padding-top: 390px;
     align-items: center;
+    font-family:kanit;
   }
   .hero-review{
     background-color:$black;
     gap :20px;
     border-radius:50%;
     flex-wrap: wrap;
+    font-family:kanit;
     
+  }
+
+  .heropizza{
+    margin-left:200px;
+    font-family: kanit;
   }
   
   .menu p{
     color:$primary-color;
+    font-family:kanit;
+    font-size:25px;
   }
   
   .searchbar{
 color:white;
 background-color: $black;
 font-size:30px;
+font-family: kanit;
   }
   .small-pizza{
     @include flex(space-between,center);
+    font-family: kanit;
   }
   .why-us h3{
     color:$primary-color;
+    font-family: kanit;
   }
   .contact p{
     color:$primary-color;
     align-items: center;
+    font-family: kanit;
   }
 .icons{
     text-align: center;
@@ -47,6 +63,11 @@ font-size:30px;
     max-width: 100px;
     border-radius:50%;
     align-items:center;
+    font-family: kanit;
+}
+
+.con{
+  background-color: $light-grey;
 }
 .img{
     padding:20px;
@@ -55,16 +76,22 @@ font-size:30px;
 .icon{
     @include flex(space-between,center);
     gap:20px;
-    background-color: $light-grey;
     border:1px solid $light-grey;
+    gap:40px;
+    padding-top: 300px;
+    font-family:kanit;
 }
+
+
 .cart{
     background-color: black;
     color:white;
     font-size:25px;
     height:70px;
     width:200px;
+    font-family: kanit;
 }
 .feature p{
   color:grey;
+  font-family:kanit;
 }

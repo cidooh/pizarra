@@ -6,29 +6,38 @@
     &:hover {
         background-color:$primary-color;
         color:white;
+        font-family: kanit;
     }
 }
 .pizza-box{
     @include flex(space-between,center);
     gap:20px;
-    padding-top: 10%
+    padding-top: 10%;
+    font-family: kanit;
 }
 
 .assistance{
     @include flex(space-between,center);
 padding-top: 40px;
+font-family: kanit;
 }
 .footer{
     @include flex(space-between,center);
     background-color: $black;
     color:white;
+    font-family: kanit;
 }
 .links{
     color:white;
+    font-family: kanit;
 }
 .bbq{
     background-color: $light-grey;
+    p{
+      color:#8a8a8a
+    }
 }
+
 .Freshpizza{
     background-color: $light-grey;
     max-width:100px;
@@ -38,9 +47,11 @@ padding-top: 40px;
 }
 .container{
     @include flex(space-between,center);
+    font-family: kanit;
 }
 .whyus{
     @include flex(space-between,center);
+    font-family: kanit;
 }
 
 .section-container {
@@ -50,6 +61,7 @@ padding-top: 40px;
     padding: 40px;
     max-width: 1200px;
     margin: auto;
+    font-family: kanit;
     img {
       max-width: 50%;
       border-radius: 5px;
@@ -62,10 +74,12 @@ padding-top: 40px;
       color: $primary-color;
       font-size: 1.5rem;
       margin-bottom: 10px;
+      font-family: kanit;
     }
     h1 {
       font-size: 2.5rem;
       margin-bottom: 20px;
+      font-family: kanit;
       span {
         color: $primary-color;
       }
@@ -78,6 +92,7 @@ padding-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-family: kanit;
   }
   .feature {
     display: flex;
@@ -114,10 +129,12 @@ padding-top: 40px;
     border-radius:5px;
     border-color:$primary-color;
     font-size:25px;
+    font-family: kanit;
   }
   .assist{
     background-color: $light-grey;
     align-items: center;  
+    font-family: kanit;
   }
   .imejes{
    margin-left: 50px;
@@ -125,6 +142,7 @@ padding-top: 40px;
 .image-container{
   margin-left:250px;
   padding-top:20px;
+  font-family: kanit;
 }
 
 @media screen and (max-width: 600px) {
