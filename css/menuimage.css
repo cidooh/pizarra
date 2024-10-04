@@ -1,0 +1,86 @@
+.pizza-menu {
+  font-family: "Kanit", sans-serif;
+  padding: 2%;
+}
+.pizza-menu .orange-1 {
+  text-align: center;
+  color: orange;
+}
+.pizza-menu .h1-center {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.pizza-menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+  list-style: none;
+}
+.pizza-menu ul li:hover {
+  color: orange;
+}
+
+.menu-pizza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+
+.pizza-move {
+  margin: -70px;
+}
+
+.nameofpizza {
+  margin-top: 60px;
+}
+
+.button {
+  margin: 90;
+  width: 140px;
+  height: 40px;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #444;
+}
+
+.pizza-cart {
+  padding: 10PX;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #F4F7FB;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #F4F7FB;
+}
+.pizza-cart .shrimp {
+  color: #8a8a8a;
+}
+
+.btn-view {
+  margin-top: 10px;
+  margin-left: 44%;
+  width: 200px;
+  height: 40px;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-view:hover {
+  background-color: #444;
+}
