@@ -1,0 +1,128 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+ 
+.menulist{
+    @include flex(space-between,center);
+    &:hover {
+        background-color:$primary-color;
+        color:white;
+    }
+}
+.pizza-box{
+    @include flex(space-between,center);
+    gap:20px;
+    padding-top: 10%
+}
+
+.assistance{
+    @include flex(space-between,center);
+padding-top: 40px;
+}
+.footer{
+    @include flex(space-between,center);
+    background-color: $black;
+    color:white;
+}
+.links{
+    color:white;
+}
+.bbq{
+    background-color: $light-grey;
+}
+.Freshpizza{
+    background-color: $light-grey;
+    max-width:100px;
+}
+.bg{
+    background-color: black;
+}
+.container{
+    @include flex(space-between,center);
+}
+.whyus{
+    @include flex(space-between,center);
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    img {
+      max-width: 50%;
+      border-radius: 5px;
+    }
+  }
+  .content {
+    max-width: 45%;
+    padding-left: 20px;
+    h2 {
+      color: $primary-color;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      span {
+        color: $primary-color;
+      }
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px;
+    .feature-icon {
+      background-color: $black;
+      color: #fff;
+      padding: 15px;
+      border-radius: 50%;
+      margin-right: 20px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .feature-text {
+      h3 {
+        font-size: 1.2rem;
+        margin: 0;
+      }
+      p {
+        margin: 5px 0 0 0;
+      }
+    }
+  }
+  .viewmore{
+    width:200px;
+    height:60px;
+    margin-left: 700px;
+    background-color: $primary-color;
+    color:white;
+    border-radius:5px;
+    border-color:$primary-color;
+    font-size:25px;
+  }
+  .assist{
+    background-color: $light-grey;
+    align-items: center;  
+  }
+  .imejes{
+   margin-left: 50px;
+  }
+.image-container{
+  margin-left:250px;
+  padding-top:20px;
+}

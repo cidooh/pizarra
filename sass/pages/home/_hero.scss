@@ -1,14 +1,29 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
   
+
+  .hero{
+    display:flex
+  }
+  .find{
+    border-color: white;
+    
+  }
   .review{
     @include flex(space-between,center);
-    padding-top:200px;
-    gap:10px;
+    padding-top: 390px;
+    align-items: center;
   }
   .hero-review{
-    background-color: black;
-    border-radius: 50px;
+    background-color:$black;
+    gap :20px;
+    border-radius:50%;
+    flex-wrap: wrap;
+    
+  }
+  
+  .menu p{
+    color:$primary-color;
   }
   
   .searchbar{
@@ -19,12 +34,37 @@ font-size:30px;
   .small-pizza{
     @include flex(space-between,center);
   }
-.menulist{
-    @include flex(space-between,center);
+  .why-us h3{
+    color:$primary-color;
+  }
+  .contact p{
+    color:$primary-color;
+    align-items: center;
+  }
+.icons{
+    text-align: center;
+    background-color:$black;
+    max-width: 100px;
+    border-radius:50%;
+    align-items:center;
 }
-.pizza-box{
-    @include flex(space-between,center);
+.img{
+    padding:20px;
+
 }
-.why-us{
+.icon{
     @include flex(space-between,center);
+    gap:20px;
+    background-color: $light-grey;
+    border:1px solid $light-grey;
+}
+.cart{
+    background-color: black;
+    color:white;
+    font-size:25px;
+    height:70px;
+    width:200px;
+}
+.feature p{
+  color:grey;
 }

@@ -2,3 +2,6 @@
 @use "./utilities/variables";
 @use "../sass/pages/home/nav";
 @use "../sass/pages/home/hero";
+@use "./pages/home/main";
+@use "./pages/home/footer.scss";
+
